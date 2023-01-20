@@ -9,7 +9,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 //importing the necessary discord classes
-const { Client, Events, GatewayIntentBits } = require('discord.js'); 
+const { Client, Events, GatewayIntentBits,Collection } = require('discord.js'); 
 
 
 //creating a new instance of the client class
